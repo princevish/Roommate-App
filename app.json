@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "roommate",
+    "slug": "roommate",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "roommate"
+}
