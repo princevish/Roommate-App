@@ -1,11 +1,27 @@
 {
   "expo": {
-    "name": "roommate",
-    "slug": "roommate",
+    "name": "RoomMate",
+    "description": "RoomMate Best App for Room Rent.",
+    "slug": "RoomMate",
+    "privacy": "public",
+    "sdkVersion": "39.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
-  },
-  "name": "roommate"
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/flash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "roommate.cleverapps.io",
+      "versionCode": 1
+    }
+  }
 }
